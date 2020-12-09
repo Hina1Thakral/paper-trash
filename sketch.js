@@ -13,8 +13,6 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	//Create the Bodies Here.
-	bin1 = new Dustbin(550, 550, 240, 20);
 	bin2 = new Dustbin(440, 490, 20, 120);
 	bin3 = new Dustbin(660, 490, 20, 120);
   paper = new Paper(370 ,20, 10, 10);
